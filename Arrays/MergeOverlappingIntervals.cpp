@@ -52,6 +52,18 @@ After the loop, push the last currentInterval into the result.
 Return the merged list.
 */
 
+
+
+/**
+ * Definition for an interval.
+ * struct Interval {
+ *     int start;
+ *     int end;
+ *     Interval() : start(0), end(0) {}
+ *     Interval(int s, int e) : start(s), end(e) {}
+ * };
+ */
+
 bool compare(const Interval &a, const Interval &b) {
     return a.start < b.start;
 }
